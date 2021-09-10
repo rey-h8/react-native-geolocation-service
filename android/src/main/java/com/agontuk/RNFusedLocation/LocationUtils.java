@@ -5,7 +5,8 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.Manifest;
 import android.os.Build;
-import android.support.v4.app.ActivityCompat;
+// https://github.com/Agontuk/react-native-geolocation-service/issues/134
+import androidx.core.app.ActivityCompat;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableMap;
